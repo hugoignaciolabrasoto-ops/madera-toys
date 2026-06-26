@@ -9,7 +9,7 @@ export const PRODUCTS: Product[] = [
     price: 18990,
     category: "bloques",
     stock: 15,
-    imageUrl: "https://picsum.photos/seed/bloques-natural/400/400",
+    imageUrl: "/images/bloques.jpg",
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ export const PRODUCTS: Product[] = [
     price: 12490,
     category: "rompecabezas",
     stock: 20,
-    imageUrl: "https://picsum.photos/seed/puzzle-animales/400/400",
+    imageUrl: "/images/rompecabezas.jpg",
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ export const PRODUCTS: Product[] = [
     price: 9990,
     category: "vehiculos",
     stock: 25,
-    imageUrl: "https://picsum.photos/seed/auto-clasico/400/400",
+    imageUrl: "/images/auto.jpg",
   },
   {
     id: 4,
@@ -39,7 +39,7 @@ export const PRODUCTS: Product[] = [
     price: 34990,
     category: "educativos",
     stock: 8,
-    imageUrl: "https://picsum.photos/seed/cocina-mini/400/400",
+    imageUrl: "/images/cocina.jpg",
   },
   {
     id: 5,
@@ -49,7 +49,7 @@ export const PRODUCTS: Product[] = [
     price: 15490,
     category: "educativos",
     stock: 18,
-    imageUrl: "https://picsum.photos/seed/abaco-color/400/400",
+    imageUrl: "/images/abaco.jpg",
   },
   {
     id: 6,
@@ -59,7 +59,7 @@ export const PRODUCTS: Product[] = [
     price: 19990,
     category: "educativos",
     stock: 12,
-    imageUrl: "https://picsum.photos/seed/xilofono-wood/400/400",
+    imageUrl: "/images/xilofono.jpg",
   },
   {
     id: 7,
@@ -69,7 +69,7 @@ export const PRODUCTS: Product[] = [
     price: 28990,
     category: "vehiculos",
     stock: 10,
-    imageUrl: "https://picsum.photos/seed/tren-artesanal/400/400",
+    imageUrl: "/images/tren.jpg",
   },
   {
     id: 8,
@@ -79,7 +79,7 @@ export const PRODUCTS: Product[] = [
     price: 13990,
     category: "bloques",
     stock: 22,
-    imageUrl: "https://picsum.photos/seed/clasificadora/400/400",
+    imageUrl: "/images/clasificadora.jpg",
   },
 ];
 
