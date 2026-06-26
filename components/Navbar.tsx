@@ -20,15 +20,15 @@ export function Navbar() {
   return (
     <nav className="bg-cream border-b border-beige-dark sticky top-0 z-40 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-28">
           {/* Logo */}
           <Link href="/" className="flex items-center flex-shrink-0">
             <Image
               src="/logo.png"
               alt="TRONC — Juguetes de madera"
-              width={80}
-              height={80}
-              className="h-12 w-auto"
+              width={160}
+              height={160}
+              className="h-24 w-auto"
               priority
             />
           </Link>
