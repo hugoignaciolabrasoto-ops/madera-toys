@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { Product } from "@/lib/types";
 import { formatPrice } from "@/lib/products";
 import { useCartStore } from "@/lib/store";
@@ -27,12 +26,10 @@ export function ProductCard({ product }: ProductCardProps) {
   return (
     <article className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-200 group flex flex-col">
       <div className="relative h-52 overflow-hidden bg-beige">
-        <Image
+        <img
           src={product.imageUrl}
           alt={product.name}
-          fill
-          className="object-cover group-hover:scale-105 transition-transform duration-300"
-          sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
+          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
         />
         <div className="absolute top-3 left-3">
           <span className="bg-beige/90 backdrop-blur-sm text-wood text-xs font-semibold px-2.5 py-1 rounded-full">

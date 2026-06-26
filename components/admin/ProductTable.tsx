@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { useAdminStore } from "@/lib/adminStore";
 import { formatPrice } from "@/lib/products";
 
@@ -57,13 +56,11 @@ export function ProductTable() {
                 {/* Producto */}
                 <td className="px-5 py-4">
                   <div className="flex items-center gap-3">
-                    <div className="relative w-12 h-12 rounded-xl overflow-hidden flex-shrink-0 bg-gray-100">
-                      <Image
+                    <div className="w-12 h-12 rounded-xl overflow-hidden flex-shrink-0 bg-gray-100">
+                      <img
                         src={product.imageUrl}
                         alt={product.name}
-                        fill
-                        className="object-cover"
-                        sizes="48px"
+                        className="w-full h-full object-cover"
                       />
                     </div>
                     <div className="min-w-0">

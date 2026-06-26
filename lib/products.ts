@@ -9,7 +9,7 @@ export const PRODUCTS: Product[] = [
     price: 18990,
     category: "bloques",
     stock: 15,
-    imageUrl: "https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=400",
+    imageUrl: "/images/bloques.jpg",
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ export const PRODUCTS: Product[] = [
     price: 12490,
     category: "rompecabezas",
     stock: 20,
-    imageUrl: "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?w=400",
+    imageUrl: "/images/rompecabezas.jpg",
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ export const PRODUCTS: Product[] = [
     price: 9990,
     category: "vehiculos",
     stock: 25,
-    imageUrl: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400",
+    imageUrl: "/images/auto.jpg",
   },
   {
     id: 4,
@@ -39,7 +39,7 @@ export const PRODUCTS: Product[] = [
     price: 34990,
     category: "educativos",
     stock: 8,
-    imageUrl: "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=400",
+    imageUrl: "/images/cocina.jpg",
   },
   {
     id: 5,
@@ -49,7 +49,7 @@ export const PRODUCTS: Product[] = [
     price: 15490,
     category: "educativos",
     stock: 18,
-    imageUrl: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=400",
+    imageUrl: "/images/abaco.jpg",
   },
   {
     id: 6,
@@ -59,7 +59,7 @@ export const PRODUCTS: Product[] = [
     price: 19990,
     category: "educativos",
     stock: 12,
-    imageUrl: "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=400",
+    imageUrl: "/images/xilofono.jpg",
   },
   {
     id: 7,
@@ -69,7 +69,7 @@ export const PRODUCTS: Product[] = [
     price: 28990,
     category: "vehiculos",
     stock: 10,
-    imageUrl: "https://images.unsplash.com/photo-1582825130843-f9177fb18bc7?w=400",
+    imageUrl: "/images/tren.jpg",
   },
   {
     id: 8,
@@ -79,7 +79,7 @@ export const PRODUCTS: Product[] = [
     price: 13990,
     category: "bloques",
     stock: 22,
-    imageUrl: "https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=400",
+    imageUrl: "/images/clasificadora.jpg",
   },
 ];
 

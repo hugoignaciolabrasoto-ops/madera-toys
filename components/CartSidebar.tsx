@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { useCartStore } from "@/lib/store";
 import { formatPrice } from "@/lib/products";
 
@@ -77,13 +76,11 @@ export function CartSidebar() {
             <ul className="space-y-4">
               {items.map((item) => (
                 <li key={item.id} className="flex gap-3 bg-white rounded-2xl p-3 shadow-sm">
-                  <div className="relative w-20 h-20 rounded-xl overflow-hidden flex-shrink-0 bg-beige">
-                    <Image
+                  <div className="w-20 h-20 rounded-xl overflow-hidden flex-shrink-0 bg-beige">
+                    <img
                       src={item.imageUrl}
                       alt={item.name}
-                      fill
-                      className="object-cover"
-                      sizes="80px"
+                      className="w-full h-full object-cover"
                     />
                   </div>
                   <div className="flex-1 min-w-0">
